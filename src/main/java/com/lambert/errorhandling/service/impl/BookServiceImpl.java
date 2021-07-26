@@ -1,6 +1,5 @@
 package com.lambert.errorhandling.service.impl;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +11,7 @@ import com.lambert.errorhandling.exception.BookNotFoundException;
 import com.lambert.errorhandling.repository.BookRepository;
 import com.lambert.errorhandling.service.BookService;
 
-@Service
+@Service("bookService")
 public class BookServiceImpl implements BookService {
 
 	@Autowired
